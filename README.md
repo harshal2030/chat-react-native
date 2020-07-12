@@ -24,7 +24,7 @@ The App was designed in **Figma** , created in **React-Native** leveraging **Fir
 
 
 ### Both people Enter their names and Join a room. After that, as One person types, the other can see their messages as they are being typed releaving them of all anxiety, make the chats more fun and increasing the speed of conversation by reducing waiting time. 
-### Those extra seconds you gain and the fun you have, that's waht makes this project Tardis!
+### Those extra seconds you gain and the fun you have, that's what makes this project Tardis!
 
 
 
