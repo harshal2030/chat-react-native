@@ -20,11 +20,11 @@ The App was designed in **Figma** , created in **React-Native** leveraging **Fir
 ## Let's see a quick Demo. 
 
 
-[![IMAGE ALT TEXT HERE](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfC-g-6PyL_BWff_7MOCb3uJtzKObUfvbkVA&usqp=CAU)](https://j.gifs.com/OMnZpY.gif)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/G7RAdohKxDE/0.jpg)](https://www.youtube.com/watch?time_continue=24&v=G7RAdohKxDE&feature=emb_title)]
 
 
 ### Both people Enter their names and Join a room. After that, as One person types, the other can see their messages as they are being typed releaving them of all anxiety, make the chats more fun and increasing the speed of conversation by reducing waiting time. 
-### Those extra seconds you gain and the fun you have, that's what makes this project Tardis!
+### Those extra seconds you gain and the fun you have, that's waht makes this project Tardis!
 
 
 
