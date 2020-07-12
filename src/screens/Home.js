@@ -1,15 +1,27 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { Button } from 'react-native-paper';
+import { Button, TextInput } from 'react-native-paper';
 
 class Home extends React.Component {
+    state = {
+        name: '',
+        room: '',
+    }
     render() {
         return (
             <View style={styles.container}>
-                <Button mode="contained" onPress={() => this.props.navigation.navigate('chat')}>
+                <TextInput value={this.state.name} placeholder="Name" onChangeText={(name) => this.setState({ name })} />
+                <TextInput value={this.state.room} placeholder="Room" style={{ marginTop: 10 }} onChangeText={(room) => this.setState({ room })} />
+                <Button mode="contained" style={{ marginTop: 10 }} onPress={() => this.props.navigation.navigate('chat', {
+                    room: this.state.room,
+                    username: this.state.name,
+                })}>
                     Create Chat Room
                 </Button>
-                <Button mode="contained" onPress={() => console.log('join')} style={{ marginTop: 10 }}>
+                <Button mode="contained" onPress={() => this.props.navigation.navigate('chat', {
+                    room: this.state.room,
+                    username: this.state.name,
+                })} style={{ marginTop: 10 }}>
                     Join Chat room
                 </Button>
             </View>
