@@ -6,7 +6,7 @@ Has it ever happened that you are texting with someone and you have to wait very
 
 We wanted to design a solution that would allow us to view texts as they are being typed and that's exactly what we did!
 
-![alt text](https://wallpaperaccess.com/full/1808356.jpg "Time"){:width="300"}
+![alt text](https://wallpaperaccess.com/full/1808356.jpg "Time")
 
 ## What it does
 
